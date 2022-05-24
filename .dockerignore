@@ -1,0 +1,6 @@
+Dockerfile
+.docterignore
+node_modules
+npm-debu.loh
+README.md
+.next
