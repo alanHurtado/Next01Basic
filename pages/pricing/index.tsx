@@ -1,19 +1,19 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import { MainLayout } from "../components/layouts/MainLayout";
+import { MainLayout } from "../../components/layouts/MainLayout";
 
 
-const Home: NextPage = () => {
+const Pricing: NextPage = () => {
   return (
     <MainLayout>
       
-        <h3 className={'title'}> Home Page </h3>
+        <h3 className={'title'}> Pricing Page </h3>
         <h1 className={'title'}>
           {/* Ir a <a href='/'> About</a> */}
-          Ir a<Link href="/about">About</Link>
+          Ir a<Link href="/about">Home</Link>
         </h1>
       </MainLayout> 
   );
 };
 
-export default Home;
+export default Pricing;
